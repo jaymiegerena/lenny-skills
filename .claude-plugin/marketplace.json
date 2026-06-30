@@ -1,0 +1,36 @@
+{
+  "name": "lenny-skills",
+  "owner": {
+    "name": "Jaymie Gerena",
+    "url": "https://github.com/jaymiegerena"
+  },
+  "metadata": {
+    "description": "86 product management skills distilled from Lenny's Podcast interviews with world-class product leaders.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "lenny-skills",
+      "source": "./",
+      "description": "86 product, growth, leadership, and sales skills for PMs, founders, and product teams — curated from 100+ Lenny's Podcast episodes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Refound AI",
+        "url": "https://refound.ai"
+      },
+      "homepage": "https://github.com/jaymiegerena/lenny-skills",
+      "license": "MIT",
+      "keywords": [
+        "product-management",
+        "product-strategy",
+        "growth",
+        "leadership",
+        "founder",
+        "sales",
+        "prd",
+        "okrs",
+        "user-research"
+      ]
+    }
+  ]
+}

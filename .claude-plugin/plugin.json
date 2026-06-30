@@ -1,0 +1,24 @@
+{
+  "name": "lenny-skills",
+  "version": "1.0.0",
+  "description": "86 product management, growth, leadership, and sales skills distilled from Lenny's Podcast interviews with world-class product leaders. Claude Code recognizes product tasks and applies the right frameworks.",
+  "author": {
+    "name": "Refound AI",
+    "url": "https://refound.ai"
+  },
+  "homepage": "https://github.com/jaymiegerena/lenny-skills",
+  "repository": "https://github.com/jaymiegerena/lenny-skills",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "product-strategy",
+    "growth",
+    "leadership",
+    "founder",
+    "sales",
+    "prd",
+    "okrs",
+    "user-research",
+    "skills"
+  ]
+}
