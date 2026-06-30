@@ -110,43 +110,54 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 ## Installation
 
-### Option 1: CLI Install (Recommended)
+### Option 1: Claude Code Plugin Marketplace (Recommended)
+
+Install all 86 skills as a single plugin using Claude Code's native marketplace. In any Claude Code terminal:
+
+```
+/plugin marketplace add jaymiegerena/lenny-skills
+/plugin install lenny-skills@lenny-skills
+```
+
+The first command registers this repo as a marketplace; the second installs the `lenny-skills` plugin (all 86 skills). Claude Code then applies the right skill automatically when you work on a product task.
+
+### Option 2: CLI Install
 
 Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
 
 ```bash
 # Install all skills
-npx skills add RefoundAI/lenny-skills
+npx skills add jaymiegerena/lenny-skills
 
 # Install specific skills
-npx skills add RefoundAI/lenny-skills --skill evaluating-candidates writing-prds
+npx skills add jaymiegerena/lenny-skills --skill evaluating-candidates writing-prds
 
 # List available skills
-npx skills add RefoundAI/lenny-skills --list
+npx skills add jaymiegerena/lenny-skills --list
 ```
 
 This automatically installs to your `.claude/skills/` directory.
 
-### Option 2: Clone and Copy
+### Option 3: Clone and Copy
 
 Clone the repo and copy skills to your project:
 
 ```bash
-git clone https://github.com/RefoundAI/lenny-skills.git
+git clone https://github.com/jaymiegerena/lenny-skills.git
 cp -r lenny-skills/skills/* .claude/skills/
 ```
 
-### Option 3: Git Submodule
+### Option 4: Git Submodule
 
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/RefoundAI/lenny-skills.git .claude/lenny-skills
+git submodule add https://github.com/jaymiegerena/lenny-skills.git .claude/lenny-skills
 ```
 
 Then reference skills from `.claude/lenny-skills/skills/`.
 
-### Option 4: Fork and Customize
+### Option 5: Fork and Customize
 
 1. Fork this repository
 2. Customize skills for your specific needs
